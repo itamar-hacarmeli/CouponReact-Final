@@ -1,0 +1,49 @@
+.GetAllCompanies {
+    background:#111; 
+}
+.table{
+    background:#111; 
+    width:80%;
+    margin:30px auto;
+    border-radius:0.4em;
+    border:1px solid #191919;
+    overflow:hidden;
+    position:relative;
+    box-shadow: 0 5px 10px 5px rgba(0,0,0,0.2);
+}
+.edit{
+    color: white;
+    margin-left: 30%;
+}
+h1{
+    width:300px;
+  margin:30px auto;
+  border-radius:0.4em;
+}
+
+* { box-sizing: border-box; }
+
+.AddCompany {
+    font-family: "HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+  color:white;
+  font-size:12px;
+
+}
+th{
+    background:linear-gradient(#1f2124, #27292c);
+    border:1px solid #222;
+    color: white;
+    box-shadow:
+      0 1px 0 rgba(255,255,255,0.1);
+    border-radius:0.3em;
+    margin-bottom:20px;
+}
+td{
+    background:linear-gradient(#1f2124, #27292c);
+    border:1px solid #222;
+    color: white;
+    box-shadow:
+      0 1px 0 rgba(255,255,255,0.1);
+    border-radius:0.3em;
+    margin-bottom:20px;
+}

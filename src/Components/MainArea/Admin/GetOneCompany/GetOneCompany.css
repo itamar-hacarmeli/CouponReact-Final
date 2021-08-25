@@ -1,0 +1,25 @@
+.GetOneCompany {
+}
+.textField1{
+width: 20%;
+margin-top: 15%;
+height: 20%;
+background-color: aliceblue;
+background: none;
+}
+.getone{
+ width: 30%;
+ margin-top: 10px;
+
+}
+.findBTN{
+    width: 150px;
+    height: 70px;
+ 
+}
+TextField{
+    width: 70px;
+}
+label{
+    width: 150%;
+}

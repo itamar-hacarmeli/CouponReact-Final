@@ -1,0 +1,41 @@
+
+.topnav {
+  /*overflow: hidden;*/
+ 
+ 
+}
+
+.topnav a {
+  float: left;
+  color: #23b9df;
+  
+  padding: 10px 10px;
+  padding-left: 40%;
+  text-decoration: none;
+  font-size: 17px;
+  column-width: 100px;
+
+ 
+}
+
+
+
+.topnav a:hover {
+  /*background-color: #ddd;*/
+  color: black;
+  
+}
+  
+.admin{
+  column-count: 1;
+}
+
+.company{
+  column-count: 1;
+}
+.customer{
+column-count: 1;
+}
+ 
+  
+  

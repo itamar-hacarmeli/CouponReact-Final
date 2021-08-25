@@ -1,0 +1,231 @@
+.Home {
+    
+} 
+.purchaseBTN{
+  margin-top: -20%;
+}
+
+
+.restPic {
+    text-align: center;
+    margin: auto;
+    margin-left: 4%;
+    width: 22%;
+
+    
+}
+.vicationPic{
+    text-align: center;
+    margin: auto;
+    margin-left: 28%;
+    width: 20%;
+    position: relative;
+    top: -333px;
+    display: block;
+    
+    
+}
+
+.electricPic{
+    text-align: center;
+    margin: auto;
+    margin-left: 50%;
+    width: 20%;
+    position: relative;
+    top: -710px;
+    display: block;
+}
+.foodPic{
+    text-align: center;
+    margin: auto;
+    margin-left: 72%;
+    width: 22%;
+    position: relative;
+    top: -1070px;
+    display: block;
+}
+
+
+
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  ul.topnav li {float: left;}
+  
+  ul.topnav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  ul.topnav li a:hover:not(.active) {background-color: #111;}
+  
+  .active {background-color: #1b7dec;}
+  
+  ul.topnav li.right {float: right;}
+  
+  @media screen and (max-width: 600px) {
+    ul.topnav li.right, 
+    ul.topnav li {float: none;}
+  }
+
+  /*dropdwon */
+  .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+ 
+  
+  /* Add Animation */
+  .modal-content, #caption {  
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+  }
+  
+  @-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+  }
+  
+  @keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+  }
+  
+  /* The Close Button */
+  .close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  /* 100% Image Width on Smaller Screens */
+  @media only screen and (max-width: 700px){
+    .modal-content {
+      width: 100%;
+    }
+  }
+
+
+        /*button */
+        button {
+        display: inline-block;
+        background-color: #000203;
+        border-radius: 10px;
+        border: 4px double #cccccc;
+        color: #eeeeee;
+        text-align: center;
+        font-size: 28px;
+        padding: 20px;
+        width: 200px;
+        transition: all 0.5s;
+        cursor: pointer;
+        margin: 5px;
+      }
+      button span {
+        cursor: pointer;
+        display: inline-block;
+        position: relative;
+        transition: 0.5s;
+      }
+      button span:after {
+        content: '\00bb';
+        position: absolute;
+        opacity: 0;
+        top: 0;
+        right: -20px;
+        transition: 0.5s;
+      }
+      button:hover {
+        background-color: #032e5f;
+      }
+      button:hover span {
+        padding-right: 25px;
+      }
+      button:hover span:after {
+        opacity: 1;
+        right: 0;
+      }
+      * {
+        box-sizing: border-box;
+      }
+
+      
+      .resturant {
+        float: left;
+        width:  300px;
+        height: 200px;
+        background-size: cover;
+        padding-left: 10px;
+       
+      }
+      
+      .vication {
+        float: left;
+        width:  300px;
+        height: 200px;
+        background-size: cover;
+        padding-left: 10px;
+      }
+      
+      .electric {
+        float: left;
+        width:  300px;
+        height: 200px;
+        background-size: cover;
+        padding-left: 10px;
+      }
+      .food{
+        float: left;
+        width:  300px;
+        height: 200px;
+        background-size: cover;
+        padding-left: 10px;
+      }
+      
+      /* Use a media query to add a break point at 800px: */
+      @media screen and (max-width: 800px) {
+        .resturant, .vication, .electric, .food {
+          width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+        }
+      }
+      
